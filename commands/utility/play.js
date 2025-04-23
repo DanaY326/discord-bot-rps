@@ -3,8 +3,8 @@ const { SlashCommandBuilder } = require('discord.js');
 module.exports = {
 	cooldown: 5,
 	data: new SlashCommandBuilder()
-		.setName('create')
-		.setDescription('Creates workout!')
+		.setName('play')
+		.setDescription('Starts game!')
 		.addStringOption(option =>
 			option.setName('move')
 				.setDescription('The move you play.')
