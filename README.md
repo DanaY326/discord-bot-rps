@@ -9,7 +9,7 @@ This is a barebones Node.js app that connects to the Discord API. A random numbe
 
 ## Lessons Learned:
 
-This is my first time building a Node.js app. I also got experience with a lot of tools that I'd heard of, such as using .gitignore and using a Linter.
+This is my first time building a Node.js app. I also got experience with a lot of tools that I'd heard of, such as using .gitignore, config files and using a Linter.
 
 ## Setup Instructions:
 
