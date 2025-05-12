@@ -1,22 +1,27 @@
 # Rock-Paper-Scissors Discord Bot
-This is a Discord Bot that you can play rock paper scissors with. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
-
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
-![alt tag](http://placecorgi.com/1200/650)
+This is a Discord Bot that you can play rock paper scissors with. Use the command "/play", and choose rock, paper, scissors, or even gun!
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Node.js, Discord.js
+**Tech used:** JavaScript, Node.js, Discord.js
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+This is a barebones Node.js app that connects to the Discord API. A random number is generated in Javascript and used to determine the computer's "move", and the move and the subsequent game result are communicated to the reader.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+This is my first time building a Node.js app. I also got experience with a lot of tools that I'd heard of, such as using .gitignore and using a Linter.
+
+## Setup Instructions:
+
+1. Ensure Node.js is installed on your computer.
+2. Pull the source code.
+3. Create or login a Discord account, and create a bot on the Developer Portal. Create a config file in the same folder as the source code with the following:
+{
+    "token": "XXXXXXXXX",
+    "clientId": "XXXXXXXXX",
+    "guildId": "XXXXXXXXX"
+}
+4. Deploy commands by running "node deploy.js", then start the app by running "node index.js".
+5. Add your bot to servers by generating an invite link on the developper portal.
+6. Use the bot and enjoy!
 
